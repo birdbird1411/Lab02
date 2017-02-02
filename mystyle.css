@@ -1,0 +1,88 @@
+body{
+background-color: #2F4F4F;
+
+}
+table, td, th {    
+    border: 1px solid red;
+    text-align: center;
+    background-color: #FFCC99;
+}
+
+table {
+    border-collapse: collapse;
+    width: 85%;
+    float:center;
+    margin-left: 8%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+th, td {
+    padding: 15px;
+}
+td{
+ background-color: #FFE4E1;
+}
+h1{ font-family: 'Athiti', sans-serif;
+  color: RED;
+  text-align: center;
+  font-size : 50px;
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: red;
+}
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
